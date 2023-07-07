@@ -6,4 +6,4 @@
 
 ## 🖥 Demo App 🖥
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)(https://usedcarprice.streamlit.app/)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://usedcarprice.streamlit.app/)
