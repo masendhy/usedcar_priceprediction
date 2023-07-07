@@ -5,13 +5,14 @@ import sklearn
 
 model = pickle.load(open('car_price_model.sav', 'rb'))
 
-st.title('Car Price Prediction')
+st.title('Toyota - Car Price Prediction')
+st.markdown("[UK usedcar dataset](https://www.kaggle.com/datasets/adityadesai13/used-car-dataset-ford-and-mercedes)")
 
-year = st.number_input('Input car product year')
-mileage = st.number_input('Input car mileage')
-tax = st.number_input('Input car tax')
-mpg = st.number_input('Input car mpg')
-engine_size = st.number_input('Input car engine size')
+year = st.number_input('Input car product year (between 1990 - 2020)',1998,2020,2000)
+mileage = st.number_input('Input car mileage(distance used)')
+tax = st.number_input('Input car tax(road tax)')
+mpg = st.number_input('Input car mpg(miles per gallon)')
+engine_size = st.number_input('Input car engine size',1.0,2.5,1.5)
 
 prediction = ' '
 
